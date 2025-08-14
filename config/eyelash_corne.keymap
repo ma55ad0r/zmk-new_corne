@@ -94,7 +94,14 @@
         };
     };
 
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        capslock {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <17 23>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";

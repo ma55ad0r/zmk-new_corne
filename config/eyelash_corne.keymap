@@ -66,6 +66,20 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        screenshot_4 {
+            bindings = <&none>;
+            key-positions = <42 28 2>;
+        };
+
+        screenshot_5 {
+            bindings = <&none>;
+            key-positions = <42 28 3>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 

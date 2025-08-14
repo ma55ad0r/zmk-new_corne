@@ -14,7 +14,7 @@ layers:
   - O
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:apple-keyboard-caps$$
+  - {t: '$$mdi:apple-keyboard-control$$', h: Fn}
   - A
   - S
   - D
@@ -46,8 +46,8 @@ layers:
   - LGUI
   - {t: '$$mdi:keyboard-space$$', h: NUMBER}
   - {t: '$$mdi:apple-keyboard-option$$', h: SYMBOL}
-  - {t: '''', h: SYMBOL, s: '"'}
-  - {t: \, h: Fn, s: '|'}
+  - {t: '''', h: Fn, s: '"'}
+  - {t: \, h: SYMBOL, s: '|'}
   - {t: '-', s: _}
   NUMBER:
   - {t: '`', s: '~'}
@@ -63,7 +63,7 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - PgUp
-  - $$mdi:apple-keyboard-control$$
+  - '~'
   - BT CLR ALL
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
@@ -111,8 +111,8 @@ layers:
   - '*'
   - (
   - )
-  - $$mdi:volume-off$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:backspace-reverse-outline$$
+  - '~'
   - $$mdi:bluetooth-off$$
   - '&screenshot_4'
   - '&screenshot_5'
@@ -144,8 +144,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-space$$', type: held}
-  - {t: '$$mdi:keyboard-return$$', type: held alternate}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:volume-off$$
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   Fn:
   - '&studio_unlock'
@@ -161,7 +161,7 @@ layers:
   - F9
   - F10
   - F11
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
@@ -193,8 +193,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [17, 23]

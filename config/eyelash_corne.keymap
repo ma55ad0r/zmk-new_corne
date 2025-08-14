@@ -94,39 +94,7 @@
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        screenshot_4 {
-            bindings = <&screenshot_4>;
-            key-positions = <42 28 2>;
-        };
-
-        screenshot_5 {
-            bindings = <&screenshot_5>;
-            key-positions = <42 28 3>;
-        };
-
-        windows_manager_left {
-            bindings = <&windows_manager_left>;
-            key-positions = <42 28 39>;
-        };
-
-        windows_manager_right {
-            bindings = <&windows_manager_right>;
-            key-positions = <42 28 41>;
-        };
-
-        windows_manager_up {
-            bindings = <&windows_manager_up>;
-            key-positions = <42 28 26>;
-        };
-
-        windows_manager_down {
-            bindings = <&windows_manager_down>;
-            key-positions = <42 28 40>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
@@ -158,10 +126,10 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&trans  &kp EXCL      &kp AT        &kp HASH   &kp DLLR   &kp PRCNT                            &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
-&trans  &bt BT_CLR    &mkp LCLK     &mkp MCLK  &mkp RCLK  &mkp MB4             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
-&trans  &out OUT_USB  &out OUT_BLE  &none      &none      &mkp MB5   &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
-                                    &trans     &trans     &kp SPACE                                                             &kp RET    &trans     &trans
+&trans  &kp EXCL      &kp AT         &kp HASH       &kp DLLR   &kp PRCNT                            &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
+&trans  &bt BT_CLR    &screenshot_4  &screenshot_5  &mkp RCLK  &mkp MB4             &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
+&trans  &out OUT_USB  &out OUT_BLE   &none          &none      &mkp MB5   &trans                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
+                                     &trans         &trans     &kp SPACE                                                             &kp RET    &trans     &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;

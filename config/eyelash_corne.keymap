@@ -107,9 +107,24 @@
             key-positions = <42 28 3>;
         };
 
-        windows_manager {
+        windows_manager_left {
             bindings = <&windows_manager_left>;
-            key-positions = <42 28>;
+            key-positions = <42 28 39>;
+        };
+
+        windows_manager_right {
+            bindings = <&windows_manager_right>;
+            key-positions = <42 28 41>;
+        };
+
+        windows_manager_up {
+            bindings = <&windows_manager_up>;
+            key-positions = <42 28 26>;
+        };
+
+        windows_manager_down {
+            bindings = <&windows_manager_down>;
+            key-positions = <42 28 40>;
         };
     };
 

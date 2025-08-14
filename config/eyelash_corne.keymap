@@ -65,11 +65,32 @@
             label = "SCREENSHOT_5";
         };
 
-        windows_manager: windows_manager {
+        windows_manager_left: windows_manager {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_COMMAND &kp LEFT_ALT>;
+            bindings = <&kp LEFT_COMMAND &kp LEFT_ALT &kp LEFT>;
             label = "WINDOWS_MANAGER";
+        };
+
+        windows_manager_right: windows_manager_right {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_COMMAND &kp LEFT_ALT &kp RIGHT>;
+            label = "WINDOWS_MANAGER_RIGHT";
+        };
+
+        windows_manager_up: windows_manager_up {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_COMMAND &kp LEFT_ALT &kp UP_ARROW>;
+            label = "WINDOWS_MANAGER_UP";
+        };
+
+        windows_manager_down: windows_manager_down {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_COMMAND &kp LEFT_ALT &kp DOWN>;
+            label = "WINDOWS_MANAGER_DOWN";
         };
     };
 
@@ -87,7 +108,7 @@
         };
 
         windows_manager {
-            bindings = <&windows_manager>;
+            bindings = <&windows_manager_left>;
             key-positions = <42 28>;
         };
     };

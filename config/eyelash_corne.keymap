@@ -68,7 +68,7 @@
         };
 
         language_selector {
-            bindings = <&kp GLOBE>;
+            bindings = <&kp C_AC_NEXT_KEYBOARD_LAYOUT_SELECT>;
             key-positions = <42 43>;
         };
     };

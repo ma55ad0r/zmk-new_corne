@@ -43,9 +43,9 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:keyboard-esc$$'}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: SYMBOL}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: Fn}
   - {t: '$$mdi:keyboard-space$$', h: NUMBER}
-  - {t: '$$mdi:apple-keyboard-option$$', h: Fn}
+  - {t: '$$mdi:apple-keyboard-option$$', h: SYMBOL}
   - {t: '''', h: Fn, s: '"'}
   - {t: \, h: NUMBER, s: '|'}
   - {t: '-', h: SYMBOL, s: _}
@@ -106,8 +106,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:brightness-5$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Alt+Gui+F
+  - Alt+Gui+C
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -141,9 +141,9 @@ layers:
   - Alt+Gui+$$mdi:arrow-down-bold$$
   - Alt+Gui+$$mdi:arrow-up-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:keyboard-space$$', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
@@ -190,9 +190,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -201,3 +201,5 @@ combos:
   k: $$mdi:apple-keyboard-caps$$
 - p: [0, 1]
   k: $$mdi:keyboard-esc$$
+- p: [13, 28]
+  k: $$mdi:apple-keyboard-shift$$

@@ -14,7 +14,7 @@ layers:
   - O
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:apple-keyboard-control$$', h: Fn}
+  - $$mdi:apple-keyboard-shift$$
   - A
   - S
   - D
@@ -42,11 +42,11 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:keyboard-esc$$'}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '''', h: '$$mdi:keyboard-esc$$', s: '"'}
+  - {t: '$$mdi:apple-keyboard-control$$', h: Fn}
   - {t: '$$mdi:keyboard-space$$', h: NUMBER}
   - {t: '$$mdi:apple-keyboard-option$$', h: SYMBOL}
-  - {t: '''', h: SYMBOL, s: '"'}
+  - {t: B, h: SYMBOL}
   - {t: \, h: NUMBER, s: '|'}
   - {t: '-', h: Fn, s: _}
   NUMBER:
@@ -161,7 +161,7 @@ layers:
   - F9
   - F10
   - F11
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - RGB TOG
   - RGB EFR
   - RGB EFF
@@ -190,7 +190,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}

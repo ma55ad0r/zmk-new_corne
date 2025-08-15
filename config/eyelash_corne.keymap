@@ -61,6 +61,16 @@
             bindings = <&kp ESCAPE>;
             key-positions = <0 1>;
         };
+
+        question_mark {
+            bindings = <&kp QMARK>;
+            key-positions = <40 41>;
+        };
+
+        language_selector {
+            bindings = <&kp GLOBE>;
+            key-positions = <42 43>;
+        };
     };
 
     keymap {

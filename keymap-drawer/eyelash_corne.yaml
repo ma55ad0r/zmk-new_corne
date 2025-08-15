@@ -44,8 +44,8 @@ layers:
   - {t: /, s: '?'}
   - {t: '''', h: '$$mdi:keyboard-esc$$', s: '"'}
   - {t: '$$mdi:apple-keyboard-control$$', h: Fn}
-  - {t: '$$mdi:keyboard-space$$', h: NUMBER}
-  - {t: '$$mdi:apple-keyboard-option$$', h: SYMBOL}
+  - {t: '$$mdi:apple-keyboard-option$$', h: NUMBER}
+  - {t: '$$mdi:keyboard-space$$', h: SYMBOL}
   - {t: B, h: SYMBOL}
   - {t: \, h: NUMBER, s: '|'}
   - {t: '-', h: Fn, s: _}

@@ -43,12 +43,12 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:keyboard-esc$$
-  - {t: '$$mdi:apple-keyboard-command$$', h: Fn}
+  - {t: '$$mdi:apple-keyboard-control$$', h: Fn}
   - {t: '$$mdi:keyboard-space$$', h: NUMBER}
   - {t: '$$mdi:apple-keyboard-option$$', h: SYMBOL}
-  - {t: '''', h: Fn, s: '"'}
-  - {t: \, h: SYMBOL, s: '|'}
-  - {t: '-', s: _}
+  - {t: '''', h: SYMBOL, s: '"'}
+  - {t: \, h: NUMBER, s: '|'}
+  - {t: '-', h: Fn, s: _}
   NUMBER:
   - {t: '`', s: '~'}
   - {t: '1', s: '!'}
@@ -64,7 +64,7 @@ layers:
   - {t: '0', s: )}
   - PgUp
   - '~'
-  - BT CLR ALL
+  - {t: '$$mdi:transfer$$', type: trans}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {h: '3', s: '$$mdi:bluetooth-connect$$'}
@@ -96,7 +96,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - INS
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:backspace-reverse-outline$$', type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   SYMBOL:
   - {t: '`', s: '~'}
@@ -144,8 +144,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-space$$', type: held}
-  - $$mdi:volume-off$$
-  - {type: held alternate}
+  - {t: '$$mdi:volume-off$$', type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   Fn:
   - '&studio_unlock'
@@ -193,9 +193,9 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [17, 23]
   k: $$mdi:apple-keyboard-caps$$

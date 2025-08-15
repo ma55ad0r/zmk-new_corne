@@ -14,7 +14,7 @@ layers:
   - O
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:apple-keyboard-control$$', h: Fn}
   - A
   - S
   - D
@@ -43,7 +43,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:keyboard-esc$$'}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: Fn}
+  - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:keyboard-space$$', h: NUMBER}
   - {t: '$$mdi:apple-keyboard-option$$', h: SYMBOL}
   - {t: '''', h: SYMBOL, s: '"'}
@@ -161,7 +161,7 @@ layers:
   - F9
   - F10
   - F11
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - RGB TOG
   - RGB EFR
   - RGB EFF
@@ -190,7 +190,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -201,5 +201,3 @@ combos:
   k: $$mdi:apple-keyboard-caps$$
 - p: [0, 1]
   k: $$mdi:keyboard-esc$$
-- p: [13, 28]
-  k: $$mdi:apple-keyboard-shift$$

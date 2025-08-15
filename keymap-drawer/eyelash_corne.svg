@@ -576,6 +576,14 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="42" y="36" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="47" y="40" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
 </g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="910" y="148" width="28" height="26" class="combo"/>
+<text x="924" y="161" class="combo tap">?</text>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="241" y="193" width="28" height="26" class="combo"/>
+<text x="255" y="206" class="combo tap">GLOBE</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 318)" class="layer-NUMBER">
@@ -863,6 +871,14 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="42" y="36" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="47" y="40" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
 </g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="910" y="148" width="28" height="26" class="combo"/>
+<text x="924" y="161" class="combo tap">?</text>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="241" y="193" width="28" height="26" class="combo"/>
+<text x="255" y="206" class="combo tap">GLOBE</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 637)" class="layer-SYMBOL">
@@ -1146,6 +1162,14 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="42" y="36" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="47" y="40" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
 </g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="910" y="148" width="28" height="26" class="combo"/>
+<text x="924" y="161" class="combo tap">?</text>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="241" y="193" width="28" height="26" class="combo"/>
+<text x="255" y="206" class="combo tap">GLOBE</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 955)" class="layer-Fn">
@@ -1420,6 +1444,14 @@ rect.held, rect.combo.held {
 <g class="combo combopos-1">
 <rect rx="6" ry="6" x="42" y="36" width="28" height="26" class="combo"/>
 <use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="47" y="40" height="18" width="18.0" class="combo tap glyph mdi:keyboard-esc"/>
+</g>
+<g class="combo combopos-2">
+<rect rx="6" ry="6" x="910" y="148" width="28" height="26" class="combo"/>
+<text x="924" y="161" class="combo tap">?</text>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="241" y="193" width="28" height="26" class="combo"/>
+<text x="255" y="206" class="combo tap">GLOBE</text>
 </g>
 </g>
 </g>

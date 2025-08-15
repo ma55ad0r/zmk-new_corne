@@ -201,3 +201,7 @@ combos:
   k: $$mdi:apple-keyboard-caps$$
 - p: [0, 1]
   k: $$mdi:keyboard-esc$$
+- p: [40, 41]
+  k: '?'
+- p: [42, 43]
+  k: GLOBE

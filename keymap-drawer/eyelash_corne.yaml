@@ -46,9 +46,9 @@ layers:
   - {t: '$$mdi:apple-keyboard-shift$$', h: Fn}
   - {t: '$$mdi:keyboard-space$$', h: NUMBER}
   - {t: '$$mdi:apple-keyboard-option$$', h: SYMBOL}
-  - {t: '''', h: Fn, s: '"'}
+  - {t: '''', h: SYMBOL, s: '"'}
   - {t: \, h: NUMBER, s: '|'}
-  - {t: '-', h: SYMBOL, s: _}
+  - {t: '-', h: Fn, s: _}
   NUMBER:
   - {t: '`', h: '~', s: '~'}
   - {t: '1', h: '!', s: '!'}
@@ -144,9 +144,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-space$$', type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   Fn:
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
@@ -193,9 +193,9 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [17, 23]
   k: $$mdi:apple-keyboard-caps$$

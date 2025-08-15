@@ -101,9 +101,9 @@ layers:
   SYMBOL:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Gui+Sft+3, s: Gui+Sft+#}
+  - {t: Gui+Sft+4, s: Gui+Sft+$}
+  - {t: Gui+Sft+5, s: Gui+Sft+%}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:brightness-5$$
   - Alt+Gui+F

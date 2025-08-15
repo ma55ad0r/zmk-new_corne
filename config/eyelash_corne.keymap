@@ -61,6 +61,11 @@
             bindings = <&kp ESCAPE>;
             key-positions = <0 1>;
         };
+
+        shift {
+            bindings = <&kp LSHFT>;
+            key-positions = <13 28>;
+        };
     };
 
     keymap {
@@ -72,7 +77,7 @@
 &mt TAB GRAVE     &kp Q  &kp W  &kp E             &kp R        &kp T                                  &kp UP                &kp Y      &kp U            &kp I        &kp O    &kp P     &kp BSPC
 &kp LEFT_CONTROL  &kp A  &kp S  &kp D             &kp F        &kp G                        &kp LEFT  &kp ENTER  &kp RIGHT  &kp H      &kp J            &kp K        &kp L    &kp SEMI  &kp ENTER
 &kp LEFT_COMMAND  &kp Z  &kp X  &kp C             &kp V        &kp B           &kp SPACE              &kp DOWN              &kp N      &kp M            &kp COMMA    &kp DOT  &kp FSLH  &mt ESC RIGHT_SHIFT
-                                &lt 2 LEFT_SHIFT  &lt 1 SPACE  &lt 3 LEFT_ALT                                               &lt 3 SQT  &lt 1 BACKSLASH  &lt 2 MINUS
+                                &lt 3 LEFT_SHIFT  &lt 1 SPACE  &lt 2 LEFT_ALT                                               &lt 3 SQT  &lt 1 BACKSLASH  &lt 2 MINUS
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -93,7 +98,7 @@
         raise_layer {
             display-name = "SYMBOL";
             bindings = <
-&trans  &trans        &trans        &trans        &trans        &trans                          &kp C_BRIGHTNESS_INC          &trans                 &trans             &trans            &trans            &trans          &kp DEL
+&trans  &trans        &trans        &trans        &trans        &trans                          &kp C_BRIGHTNESS_INC          &kp LA(LG(F))          &kp LA(LG(C))      &trans            &trans            &trans          &kp DEL
 &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4            &trans  &kp C_MUTE            &trans  &kp LG(LA(SEMICOLON))  &kp LG(LA(SQT))    &trans            &kp LA(LG(UP))    &trans          &trans
 &trans  &trans        &trans        &trans        &trans        &trans        &trans            &kp C_BRIGHTNESS_DEC          &kp LA(LG(PERIOD))     &kp LA(LG(SLASH))  &kp LG(LA(LEFT))  &kp LA(LG(DOWN))  &kp LA(LG(UP))  &trans
                                     &trans        &trans        &kp SPACE                                                     &trans                 &trans             &trans

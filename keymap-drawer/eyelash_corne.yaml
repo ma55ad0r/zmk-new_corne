@@ -14,7 +14,7 @@ layers:
   - O
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:apple-keyboard-option$$'}
   - A
   - S
   - D
@@ -44,11 +44,11 @@ layers:
   - {t: /, s: '?'}
   - {t: '''', h: FN_RGB, s: '"'}
   - {t: '$$mdi:apple-keyboard-control$$', h: FN_RGB}
-  - {t: '$$mdi:apple-keyboard-option$$', h: NUMSYM}
   - {t: '$$mdi:keyboard-space$$', h: BT_WIN}
+  - {t: '$$mdi:keyboard-space$$', h: NUMSYM}
+  - {t: '-', h: NUMSYM, s: _}
+  - {t: '=', h: BT_WIN, s: +}
   - {t: '[', h: ']', s: '{'}
-  - {t: '=', h: NUMSYM, s: +}
-  - {t: '-', h: BT_WIN, s: _}
   NUMSYM:
   - {t: '`', s: '~'}
   - {t: '1', s: '!'}
@@ -93,10 +93,10 @@ layers:
   - $$mdi:arrow-right-bold$$
   - PgDn
   - $$mdi:apple-keyboard-shift$$
-  - {type: held}
-  - $$mdi:keyboard-space$$
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:keyboard-space$$', type: held}
   - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   BT_WIN:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -124,8 +124,8 @@ layers:
   - {t: Gui+Alt+;, s: 'Gui+Alt+:'}
   - {t: Gui+Alt+', s: Gui+Alt+"}
   - {t: '$$mdi:transfer$$', type: trans}
-  - Alt+Gui+$$mdi:arrow-up-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
+  - Alt+Gui+$$mdi:arrow-up-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:bluetooth-off$$
@@ -137,16 +137,16 @@ layers:
   - $$mdi:brightness-7$$
   - Alt+Gui+.
   - {t: Alt+Gui+/, s: 'Alt+Gui+?'}
-  - Gui+Alt+$$mdi:arrow-left-bold$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - Alt+Gui+$$mdi:arrow-left-bold$$
   - Alt+Gui+$$mdi:arrow-down-bold$$
   - Alt+Gui+$$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:keyboard-space$$', type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   FN_RGB:
   - {t: '$$mdi:transfer$$', type: trans}
   - F1

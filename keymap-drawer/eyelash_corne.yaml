@@ -50,33 +50,33 @@ layers:
   - {t: '=', h: NUMSYM, s: +}
   - {t: '-', h: BT_WIN, s: _}
   NUMSYM:
-  - {t: '`', h: '~', s: '~'}
-  - {t: '1', h: '!', s: '!'}
-  - {t: '2', h: '@', s: '@'}
-  - {t: '3', h: '#', s: '#'}
-  - {t: '4', h: $, s: $}
-  - {t: '5', h: '%', s: '%'}
+  - {t: '`', s: '~'}
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
   - $$mdi:volume-high$$
-  - {t: '6', h: ^, s: ^}
-  - {t: '7', h: '&', s: '&'}
-  - {t: '*', h: '8'}
-  - {t: '9', h: (, s: (}
-  - {t: '0', h: ), s: )}
+  - {t: '6', s: ^}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '-', h: _, s: _}
-  - {t: '=', h: +, s: +}
-  - {t: '[', h: '{', s: '{'}
-  - {t: ']', h: '}', s: '}'}
-  - {t: \, h: '|', s: '|'}
+  - '~'
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
   - $$mdi:skip-previous$$
   - PLAY PAUSE
   - $$mdi:skip-next$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:arrow-up-bold$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
   - PgUp
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -87,8 +87,8 @@ layers:
   - $$mdi:volume-off$$
   - $$mdi:volume-low$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - PgDn

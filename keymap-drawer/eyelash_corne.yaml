@@ -197,7 +197,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [13, 14]
+- p: [17, 23]
   k: $$mdi:apple-keyboard-caps$$
 - p: [0, 1]
   k: $$mdi:keyboard-esc$$

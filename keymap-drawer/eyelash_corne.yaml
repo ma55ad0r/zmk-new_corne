@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
   QWERTY:
-  - {t: '`', h: '$$mdi:apple-keyboard-option$$', s: '~'}
+  - {t: '`', h: '$$mdi:keyboard-esc$$', s: '~'}
   - Q
   - W
   - E
@@ -28,7 +28,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-command$$
   - Z
   - X
@@ -42,11 +42,11 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: '''', h: '$$mdi:keyboard-esc$$', s: '"'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:apple-keyboard-control$$', h: FN_RGB}
-  - {t: '$$mdi:keyboard-space$$', h: NUMSYM}
+  - {t: '$$mdi:apple-keyboard-option$$', h: NUMSYM}
   - {t: '$$mdi:keyboard-space$$', h: BT_WIN}
-  - {t: B, h: BT_WIN}
+  - {t: '$$mdi:keyboard-return$$', h: BT_WIN}
   - {t: '$$mdi:apple-keyboard-option$$', h: NUMSYM}
   - {t: '-', h: FN_RGB, s: _}
   NUMSYM:
@@ -77,7 +77,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-up-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - PgUp
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -91,7 +91,7 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - PgDn
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:keyboard-space$$', type: held}
   - $$mdi:apple-keyboard-option$$

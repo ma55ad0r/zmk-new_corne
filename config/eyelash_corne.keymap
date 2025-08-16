@@ -101,11 +101,11 @@
         };
 
         raise_layer {
-            display-name = "BT_WNDW";
+            display-name = "BT_WIN";
             bindings = <
 &trans  &trans        &kp LG(LS(N3))  &kp LG(LS(N4))  &kp LG(LS(N5))  &trans                          &kp C_BRIGHTNESS_INC          &kp LA(LG(F))          &kp LA(LG(C))      &trans            &trans            &trans             &kp DEL
 &trans  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3    &bt BT_SEL 4            &trans  &kp C_MUTE            &trans  &kp LG(LA(SEMICOLON))  &kp LG(LA(SQT))    &trans            &kp LA(LG(UP))    &trans             &trans
-&trans  &trans        &trans          &trans          &trans          &trans        &trans            &kp C_BRIGHTNESS_DEC          &kp LA(LG(PERIOD))     &kp LA(LG(SLASH))  &kp LG(LA(LEFT))  &kp LA(LG(DOWN))  &kp LA(LG(RIGHT))  &trans
+&trans  &bt BT_CLR    &trans          &trans          &trans          &trans        &trans            &kp C_BRIGHTNESS_DEC          &kp LA(LG(PERIOD))     &kp LA(LG(SLASH))  &kp LG(LA(LEFT))  &kp LA(LG(DOWN))  &kp LA(LG(RIGHT))  &trans
                                       &trans          &trans          &kp SPACE                                                     &trans                 &trans             &trans
             >;
 

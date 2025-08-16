@@ -68,7 +68,7 @@
         };
 
         language_selector {
-            bindings = <&kp C_AC_NEXT_KEYBOARD_LAYOUT_SELECT>;
+            bindings = <&kp LC(SPACE)>;
             key-positions = <42 43>;
         };
     };

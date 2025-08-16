@@ -191,8 +191,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {type: held alternate}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Ctl+$$mdi:keyboard-space$$
+  - AC NEXT KEYBOARD LAYOUT SELECT
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -203,5 +203,3 @@ combos:
   k: $$mdi:keyboard-esc$$
 - p: [40, 41]
   k: '?'
-- p: [42, 43]
-  k: Ctl+$$mdi:keyboard-space$$

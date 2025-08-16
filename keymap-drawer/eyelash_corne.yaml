@@ -28,7 +28,7 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-command$$
   - Z
   - X
@@ -93,8 +93,8 @@ layers:
   - $$mdi:arrow-right-bold$$
   - PgDn
   - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:keyboard-space$$', type: held}
-  - $$mdi:apple-keyboard-option$$
+  - {type: held}
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -204,4 +204,4 @@ combos:
 - p: [40, 41]
   k: '?'
 - p: [42, 43]
-  k: AC NEXT KEYBOARD LAYOUT SELECT
+  k: Ctl+$$mdi:keyboard-space$$

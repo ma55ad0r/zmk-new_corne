@@ -54,7 +54,7 @@
 
         capslock {
             bindings = <&kp CAPSLOCK>;
-            key-positions = <17 23>;
+            key-positions = <13 14>;
         };
 
         esc {

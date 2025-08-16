@@ -139,7 +139,7 @@ layers:
   - {t: Alt+Gui+/, s: 'Alt+Gui+?'}
   - Gui+Alt+$$mdi:arrow-left-bold$$
   - Alt+Gui+$$mdi:arrow-down-bold$$
-  - Alt+Gui+$$mdi:arrow-up-bold$$
+  - Alt+Gui+$$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}

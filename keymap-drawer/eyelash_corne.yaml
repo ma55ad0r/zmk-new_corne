@@ -42,12 +42,12 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: '''', h: FN_RGB, s: '"'}
-  - {t: '$$mdi:apple-keyboard-control$$', h: FN_RGB}
-  - {t: '$$mdi:keyboard-space$$', h: BT_WIN}
+  - {t: '''', h: FNRGB, s: '"'}
+  - {t: '$$mdi:apple-keyboard-control$$', h: FNRGB}
+  - {t: '$$mdi:keyboard-space$$', h: BTWIN}
   - {t: '$$mdi:keyboard-space$$', h: NUMSYM}
   - {t: '-', h: NUMSYM, s: _}
-  - {t: '=', h: BT_WIN, s: +}
+  - {t: '=', h: BTWIN, s: +}
   - {t: '[', h: ']', s: '{'}
   NUMSYM:
   - {t: '`', s: '~'}
@@ -98,7 +98,7 @@ layers:
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  BT_WIN:
+  BTWIN:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: Gui+Sft+3, s: Gui+Sft+#}
@@ -147,7 +147,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
-  FN_RGB:
+  FNRGB:
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
   - F2

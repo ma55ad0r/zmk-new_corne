@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
   QWERTY:
-  - {t: '`', h: '$$mdi:keyboard-tab$$', s: '~'}
+  - {t: '`', h: '$$mdi:apple-keyboard-option$$', s: '~'}
   - Q
   - W
   - E
@@ -44,10 +44,10 @@ layers:
   - {t: /, s: '?'}
   - {t: '''', h: '$$mdi:keyboard-esc$$', s: '"'}
   - {t: '$$mdi:apple-keyboard-control$$', h: FN_RGB}
-  - {t: '$$mdi:apple-keyboard-option$$', h: NUMSYM}
+  - {t: '$$mdi:keyboard-space$$', h: NUMSYM}
   - {t: '$$mdi:keyboard-space$$', h: BT_WIN}
   - {t: B, h: BT_WIN}
-  - {t: \, h: NUMSYM, s: '|'}
+  - {t: '$$mdi:apple-keyboard-option$$', h: NUMSYM}
   - {t: '-', h: FN_RGB, s: _}
   NUMSYM:
   - {t: '`', h: '~', s: '~'}

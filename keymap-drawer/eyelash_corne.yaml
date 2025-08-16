@@ -44,7 +44,7 @@ layers:
   - {t: /, s: '?'}
   - {t: '''', h: FNRGB, s: '"'}
   - {t: '$$mdi:apple-keyboard-control$$', h: FNRGB}
-  - {t: '$$mdi:keyboard-space$$', h: BTWIN}
+  - {t: '$$mdi:apple-keyboard-option$$', h: BTWIN}
   - {t: '$$mdi:keyboard-space$$', h: NUMSYM}
   - {t: '-', h: NUMSYM, s: _}
   - {t: '=', h: BTWIN, s: +}

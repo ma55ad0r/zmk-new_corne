@@ -44,8 +44,8 @@ layers:
   - {t: /, s: '?'}
   - {t: '''', h: FNRGB, s: '"'}
   - {t: '$$mdi:keyboard-tab$$', h: BTWIN}
-  - {t: '$$mdi:keyboard-space$$', h: NUMSYM}
   - $$mdi:apple-keyboard-command$$
+  - {t: '$$mdi:keyboard-space$$', h: NUMSYM}
   - {t: '-', h: NUMSYM, s: _}
   - {t: '=', h: BTWIN, s: +}
   - {t: '[', h: ']', s: '{'}
@@ -93,8 +93,8 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - $$mdi:apple-keyboard-shift$$
-  - {type: held}
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:keyboard-space$$', type: held}
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}

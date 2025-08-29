@@ -19,7 +19,7 @@ layers:
   - S
   - D
   - F
-  - G
+  - {t: G, h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
@@ -43,9 +43,9 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '''', h: FNRGB, s: '"'}
-  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:keyboard-tab$$', h: BTWIN}
   - {t: '$$mdi:keyboard-space$$', h: NUMSYM}
-  - {t: '$$mdi:apple-keyboard-command$$', h: BTWIN}
+  - $$mdi:apple-keyboard-command$$
   - {t: '-', h: NUMSYM, s: _}
   - {t: '=', h: BTWIN, s: +}
   - {t: '[', h: ']', s: '{'}
@@ -141,9 +141,9 @@ layers:
   - Alt+Gui+$$mdi:arrow-left-bold$$
   - Alt+Gui+$$mdi:arrow-down-bold$$
   - Alt+Gui+$$mdi:arrow-right-bold$$
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:keyboard-space$$', type: held}
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}

@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
   QWERTY:
-  - {t: '`', h: '$$mdi:keyboard-esc$$', s: '~'}
+  - {t: '$$mdi:keyboard-esc$$', h: '`'}
   - Q
   - W
   - E
@@ -14,7 +14,7 @@ layers:
   - O
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-option$$
   - A
   - S
   - D
@@ -29,8 +29,8 @@ layers:
   - L
   - {t: ;, s: ':'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:apple-keyboard-command$$
-  - Z
+  - $$mdi:apple-keyboard-shift$$
+  - {t: Z, h: '$$mdi:apple-keyboard-control$$'}
   - X
   - C
   - V
@@ -43,9 +43,9 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '''', h: FNRGB, s: '"'}
-  - {t: '$$mdi:apple-keyboard-control$$', h: FNRGB}
-  - {t: '$$mdi:apple-keyboard-option$$', h: BTWIN}
+  - {t: '$$mdi:keyboard-tab$$', h: FNRGB}
   - {t: '$$mdi:keyboard-space$$', h: NUMSYM}
+  - {t: '$$mdi:apple-keyboard-command$$', h: BTWIN}
   - {t: '-', h: NUMSYM, s: _}
   - {t: '=', h: BTWIN, s: +}
   - {t: '[', h: ']', s: '{'}
@@ -93,8 +93,8 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:keyboard-space$$', type: held}
+  - {type: held}
+  - $$mdi:keyboard-space$$
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -142,8 +142,8 @@ layers:
   - Alt+Gui+$$mdi:arrow-down-bold$$
   - Alt+Gui+$$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:keyboard-space$$', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}

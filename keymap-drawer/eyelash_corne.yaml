@@ -19,7 +19,7 @@ layers:
   - S
   - D
   - F
-  - {t: G, h: '$$mdi:apple-keyboard-control$$'}
+  - G
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$

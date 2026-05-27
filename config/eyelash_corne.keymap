@@ -70,6 +70,15 @@
         };
     };
 
+    macros {
+        einkcentre: einkcentre {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none>;
+            label = "EINKCENTRE";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -102,7 +111,7 @@
             bindings = <
 &trans  &trans      &kp LG(LS(NUMBER_3))  &kp LG(LS(NUMBER_4))  &kp LG(LS(N5))  &trans                                     &kp PAGE_UP                          &kp LA(LG(F))          &kp LA(LG(C))      &trans  &trans            &trans                &kp DELETE
 &trans  &bt BT_CLR  &bt BT_PRV            &bt BT_NXT            &trans          &trans               &kp C_BRIGHTNESS_DEC  &kp ENTER      &kp C_BRIGHTNESS_INC  &kp LA(LG(SEMICOLON))  &kp LA(LG(SQT))    &trans  &trans            &kp LA(LG(UP_ARROW))  &trans
-&trans  &trans      &trans                &trans                &trans          &trans     &trans                          &kp PAGE_DOWN                        &kp LA(LG(PERIOD))     &kp LA(LG(SLASH))  &trans  &kp LA(LG(LEFT))  &kp LA(LG(DOWN))      &kp LA(LG(UP))
+&trans  &trans      &kp K_BACK            &kp LGUI              &kp K_APP       &trans     &trans                          &kp PAGE_DOWN                        &kp LA(LG(PERIOD))     &kp LA(LG(SLASH))  &trans  &kp LA(LG(LEFT))  &kp LA(LG(DOWN))      &kp LA(LG(UP))
                                           &trans                &trans          &kp SPACE                                                                       &trans                 &trans             &trans
             >;
 
